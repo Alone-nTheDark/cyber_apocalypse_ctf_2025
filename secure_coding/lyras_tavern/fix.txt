@@ -1,0 +1,11 @@
+if (strpos($phprc ?? '', '/dev/fd/') !== false || 
+    strpos($phprc ?? '', 'data://') !== false) {
+    header("Status: 403 Forbidden");
+    die("Invalid PHPRC path.");
+}
+
+if (preg_match('/allow_url_include|auto_prepend_file|php_value/i', $data ?? '')) {
+    header("Status: 403 Forbidden");
+    die("Malicious payload detected.");
+}
+

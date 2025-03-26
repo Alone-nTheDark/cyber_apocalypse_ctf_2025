@@ -1,0 +1,4 @@
+location /static {
+    internal;
+    alias /www/application/app/static/;
+}

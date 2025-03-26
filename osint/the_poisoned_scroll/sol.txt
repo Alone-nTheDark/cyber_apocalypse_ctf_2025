@@ -1,0 +1,1 @@
+APT29 (also known as Fancy Bear) was seen targeting German political parties using a new backdoor variant called WINELOADER.

@@ -1,0 +1,3 @@
+docker run --platform linux/amd64 -v $(pwd):/app -it ubuntu /app/main
+
+13x37
